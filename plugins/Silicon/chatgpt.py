@@ -9,7 +9,7 @@ from pyrogram import Client, filters
 # Define API URL for search
 API_URL = "https://sugoi-api.vercel.app/search"
 
-@Client.on_message(filters.command(["chatgpt","chat","openai","silicon","gpt","solve"],  prefixes=["+", ".", "/", "-", "", "$","#","&"]))
+@Client.on_message(filters.command(["chatgpt","chat","openai","Pathan","gpt","solve"],  prefixes=["+", ".", "/", "-", "", "$","#","&"]))
 async def chat_gpt(bot, message):
     try:
         start_time = time.time()
@@ -30,7 +30,7 @@ async def chat_gpt(bot, message):
                     end_time = time.time()
                     telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ms"
                     await message.reply_text(
-                        f" {x}  :\n\n ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➛ Silicon Botz",
+                        f" {x}  :\n\n ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➛ Pathan Botz",
                         parse_mode=ParseMode.MARKDOWN
                     )
                 else:
