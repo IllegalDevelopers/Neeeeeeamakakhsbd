@@ -12,7 +12,7 @@ DART_E_MOJI = "🎯"
     f_onw_fliter
 )
 async def throw_dart(client, message):
-    """ /throw an @AnimatedDart """
+    """ /throw an @pathan_botz """
     rep_mesg_id = message.id
     if message.reply_to_message:
         rep_mesg_id = message.reply_to_message.id
