@@ -615,7 +615,7 @@ USAGE:
 ➢ /cc - Generate random credit cards.
 
 NOTE:
-• Lucy should have admin privillage.
+• Muzan should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member.</b>"""
 
@@ -634,7 +634,7 @@ USAGE:
 ➢ /character [name] - Get the information about the character.
 
 NOTE:
-• Lucy should have admin privillage.
+• Muzan should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member.</b>"""
 
@@ -748,7 +748,7 @@ Example:
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.
 
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴏᴅᴇғʟɪx ʙᴏᴛs...
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pathanʙᴏᴛs...
 """
 
 
@@ -782,7 +782,7 @@ Example:
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.
 
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ Sɪʟɪᴄᴏɴ Bᴏᴛ..
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ  PathanBᴏᴛ..
 """
 
     BASIC_TXT = """
@@ -812,7 +812,7 @@ Example:
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.
 
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ Sɪʟɪᴄᴏɴ Bᴏᴛ..
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ PathanBᴏᴛ..
 """
 
     EXPERT_TXT = """
@@ -828,7 +828,7 @@ Example:
  ➻ /imagine : ᴄʀᴇᴀᴛᴇ ᴀɪ ɪᴍᴀɢᴇs
 
 ɴᴏᴛᴇ:
-• ʟᴜᴄʏ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Muzan sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.
 
