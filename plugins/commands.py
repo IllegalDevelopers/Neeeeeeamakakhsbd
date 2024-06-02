@@ -72,7 +72,7 @@ async def start(client, message):
                     InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇꜱ ', callback_data='channels')
+                    InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇꜱ ', url='https://t.me/pathan_botz')
                 ],[
                     InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='main'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data='about')
@@ -144,7 +144,7 @@ async def start(client, message):
                     InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇꜱ ', callback_data='channels')
+                    InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇꜱ ', url='https://t.me/pathan_botz')
                 ],[
                     InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='main'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data='about')
@@ -484,7 +484,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/MAP_Originals_Backup')
+              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Pathan_botz')
              ]
             ]
         )
@@ -621,7 +621,7 @@ async def start(client, message):
               InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', callback_data=f'generate_stream_link:{file_id}'),
              ],
              [
-              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Silicon_Bot_Update')
+              InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/pathan_botz')
              ]
             ]
         )
