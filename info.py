@@ -64,7 +64,7 @@ auth_grp = environ.get('-1002041210816')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001972484628') # support group id ( make sure bot is admin )
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001915187457') # request channel id ( make sure bot is admin )
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002228589276') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
@@ -88,7 +88,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/back_up_pathan/7306') # How to open tutorial link for verification
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'c5d9abfa27dfe6b5d75cafe51d196bda4c736def')
@@ -163,7 +163,7 @@ else:
     URL = "https://muzan-ap-1a3f2b595b85.herokuapp.com/".   format(FQDN)
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001915187457'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002228589276'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
