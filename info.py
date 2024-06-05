@@ -88,7 +88,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/back_up_pathan/7306') # How to open tutorial link for verification
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'c5d9abfa27dfe6b5d75cafe51d196bda4c736def')
