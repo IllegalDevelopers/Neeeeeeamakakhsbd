@@ -158,9 +158,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://muzan-ap-1a3f2b595b85.herokuapp.com/".format(FQDN)
+    URL = "https://feminist-marketa-muzanbot-ee3c813c.koyeb.app/".format(FQDN)
 else:
-    URL = "https://muzan-ap-1a3f2b595b85.herokuapp.com/".   format(FQDN)
+    URL = "https://feminist-marketa-muzanbot-ee3c813c.koyeb.app/".   format(FQDN)
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002228589276'))
