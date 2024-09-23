@@ -26,7 +26,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20588632'))
 API_HASH = environ.get('API_HASH', '86381c7fcfd83ca9bb16f920b6f132b3')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5601445358:AAFTITSuVVgB6VxOCylYrKIgU1ZyAgqj8as")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7437455937:AAE_jr231EpNAMqZ5JsmppETC-dJAfQxZeA")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -54,24 +54,24 @@ EVAL_ID = environ.get("EVAL_ID", "5554060579")
 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5554060579 5683891175').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', ' -1001672766292').split()] #Channel id for auto indexing ( make sure bot is admin )
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6453389180 1241594452 1314236496 6959783767').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', ' -1001900093725').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1001965248013') #Channel / Group Id for force sub ( make sure bot is admin )
-auth_grp = environ.get('-1002041210816')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001887207978') #Channel / Group Id for force sub ( make sure bot is admin )
+auth_grp = environ.get('-1001694002325')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001972484628') # support group id ( make sure bot is admin )
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002228589276') # request channel id ( make sure bot is admin )
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001694002325') # support group id ( make sure bot is admin )
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001887207978') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Pathan:pathan@cluster0.b0zqbsl.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Auto-filter-muzan")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Order:order@cluster0.aitjsft.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "zz-files")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
@@ -97,18 +97,18 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Muzan_the_killer_bot")
-BOT_NAME = environ.get("BOT_NAME", "MUZAN")
+BOT_USERNAME = environ.get("BOT_USERNAME", "ZzBasicBot")
+BOT_NAME = environ.get("BOT_NAME", "BasicBot")
 BOT_ID = environ.get("BOT_ID", "")
-S_GROUP = environ.get('S_GROUP', "https://t.me/pathans_moviez")
-S_CHANNEL = environ.get('S_CHANNEL', "https://t.me/pathan_botz")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/pathans_moviez')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/pathan_botz')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/back_up_pathan/7306') # Tutorial video link for opening shortlink website 
+S_GROUP = environ.get('S_GROUP', "https://t.me/zzmovie1000")
+S_CHANNEL = environ.get('S_CHANNEL', "https://t.me/ZzExtra")
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/zzmovie1000')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ZzExtra')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/zzmovie1000') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : PathanBotz')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001915187457')) #Log channel id ( make sure bot is admin )
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1002041210816') #Support group link ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001900093725')) #Log channel id ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -121,7 +121,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001672766292')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001900093725')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
