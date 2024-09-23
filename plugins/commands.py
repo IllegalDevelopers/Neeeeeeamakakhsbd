@@ -136,18 +136,13 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ ', callback_data="shortlink_info"),
                     InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇꜱ ', url='https://t.me/pathan_botz')
                 ],[
                     InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='main'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('🎁 Uᴘᴅᴀᴛᴇ ᴛᴏ Pʀᴇᴍɪᴜᴍ', callback_data="seeplans")
-                ],[
-                    InlineKeyboardButton('⚜️ Rᴇғᴇʀ & Gᴇᴛ Pʀᴇᴍɪᴜᴍ ⚜️', callback_data="reffff")          
-                ]] 
+                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour        
