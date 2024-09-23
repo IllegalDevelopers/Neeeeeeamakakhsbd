@@ -69,18 +69,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ ', callback_data="shortlink_info"),
                     InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇꜱ ', url='https://t.me/pathan_botz')
                 ],[
                     InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='main'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('🎁 Uᴘᴅᴀᴛᴇ ᴛᴏ Pʀᴇᴍɪᴜᴍ', callback_data="seeplans")
-                ],[
-                    InlineKeyboardButton('⚜️ Rᴇғᴇʀ & Gᴇᴛ Pʀᴇᴍɪᴜᴍ ⚜️', callback_data="reffff")         
-                ]]
+                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour        
